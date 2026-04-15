@@ -767,21 +767,3 @@ The platform supports 16 specialties:
 | `VONAGE_PRIVATE_KEY` | Vonage | Private key for auth (path or content) |
 
 ---
-
-## 14. Suggested Diagrams to Generate
-
-Based on this analysis, here are the diagrams you should create:
-
-1. **ER Diagram** — All 6 models with fields, types, relationships, and cardinalities (Section 3)
-2. **System Architecture Diagram** — Client ↔ Next.js ↔ Server Actions ↔ PostgreSQL ↔ Clerk ↔ Vonage (Sections 1, 11)
-3. **User Flow / Flowchart** — Complete user journey from landing to video call (Section 6)
-4. **Class Diagram / UML** — Models as classes with methods (server actions grouped by model) (Sections 3, 5)
-5. **Sequence Diagram: Appointment Booking** — Patient → UI → Server Action → DB → Vonage (Section 6.3)
-6. **Sequence Diagram: Video Call** — User → UI → Server Action → Vonage SDK → Peer (Section 6.4)
-7. **Sequence Diagram: Credit Flow** — Subscription → Allocation → Deduction → Payout (Sections 6.5, 6.6)
-8. **State Machine Diagram** — Appointment lifecycle: SCHEDULED ↔ COMPLETED / CANCELLED (Section 6.7)
-9. **State Machine Diagram** — Doctor verification: PENDING → VERIFIED / REJECTED (Section 6.2)
-10. **Component Hierarchy / Tree Diagram** — React component tree with data flow (Section 7.1)
-11. **Activity Diagram: Admin Workflow** — Approve doctors, manage payouts (Section 6.2, 6.6)
-12. **Deployment Diagram** — Vercel/Node.js + PostgreSQL + Clerk SaaS + Vonage SaaS (Section 11)
-13. **Route Map / Sitemap** — All pages with auth requirements (Sections 2, 4.2)
