@@ -1,6 +1,6 @@
 # SwasthyaSetu — Complete Project Architecture Analysis
 
-> **Purpose**: This document provides minute-level detail about every aspect of the project so you can prompt another AI to generate flowcharts, UML diagrams, ER diagrams, architecture diagrams, sequence diagrams, etc.
+> **Purpose**: This document provides minute-level detail about every aspect of the project
 
 ---
 
