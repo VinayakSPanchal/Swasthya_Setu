@@ -1,7 +1,7 @@
 # SwasthyaSetu — Complete Project Architecture Analysis
 
 > **Purpose**: This document provides minute-level detail about every aspect of the project
-
+Build by Tejas Patil, Vushwajeet Panaskar, Vinayak Panchal and Arnav Nadkarni.
 ---
 
 ## 1. Technology Stack
